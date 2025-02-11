@@ -1,0 +1,48 @@
+div.card-face-up-div {
+    width: 28px;
+    height: 38px;
+    background-color: #ffffff;
+    outline: 1px solid #000000;
+    border-radius: 3px;
+    margin: 1px;
+    display: inline-block;
+    box-shadow: 5px 5px #000000;
+}
+
+div.card-face-up-div div.card-face-div {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 16px;
+    width: 28px;
+    margin: 11px 0px;
+    text-align: center;
+    display: inline-block;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div.card-face-down-div {
+    width: 28px;
+    height: 38px;
+    background-color: #008B00;
+    outline: 1px solid #000000;
+    border-radius: 3px;
+    margin: 1px;
+    display: inline-block;
+    box-shadow: 5px 5px #000000;
+}
+
+div.card-face-down-div div.card-logo-div {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 16px;
+    width: 28px;
+    margin: 11px 0px;
+    color: #00D800;
+    text-align: center;
+    display: inline-block;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

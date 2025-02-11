@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <link rel="stylesheet" type="text/css" href="./css/cards.css">
+        <script language="javascript" src="./js/blackjack.js"></script>
+        <script language="javascript" src="./js/gameplay.js"></script>
+        <title>Blackjack</title>
+    </head>
+    <body onload="initialize();">
+        <div id="content-div">
+            <div id="title-div">
+                <h1>Blackjack</h1>
+            </div>
+            <div id="dealer-cards-div"></div>
+            <div id="scores-div">
+                <table id="scoreboard">
+                    <tr>
+                        <td></td>
+                        <td>Score</td>
+                        <td>Wins</td>
+                    </tr>
+                    <tr>
+                        <td>Dealer</td>
+                        <td><span id="dealer-score-span"></span></td>
+                        <td><span id="dealer-total-span"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Player</td>
+                        <td><span id="player-score-span"></span></td>
+                        <td><span id="player-total-span"></span></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="player-cards-div"></div>
+            <div id="results-div"></div>
+            <div class="controls-div" id="main-controls-div">
+                <button onclick="startGame();">Play</button>
+            </div>
+            <div class="controls-div" id="game-controls-div">
+                <button onclick="hit();">Hit</button><button onclick="stand();">Stand</button>
+            </div>
+            <div class="controls-div" id="replay-controls-div">
+                <button onclick="restartGame();">Play again</button><button onclick="clearAll();">Reset</button>
+            </div>
+        </div>
+        <div id="signature">2025 <a href="https://github.com/joerundh" target="_blank">github/joerundh</a></div>
+    </body>
+</html>

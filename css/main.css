@@ -1,0 +1,144 @@
+body {
+    background-image: radial-gradient(#444444, #000000);
+    margin: 0px auto;
+    width: 300px;
+}
+
+div#content-div {
+    width: 300px;
+    background-image: linear-gradient(#6B0A0A 0%, #A41212 66%);
+    color: #999999;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px #000000;
+}
+
+div#title-div {
+    width: 300px;
+}
+
+div#title-div h1 {
+    font-size: 48px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px 0px;
+    color: #000000;;
+    -webkit-text-stroke: 0.7px #999999;
+    text-shadow: #ff0000 1px 0 10px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div#dealer-cards-div, div#player-cards-div {
+    width: 270px;
+    height: 40px;
+    padding: 15px;
+    margin: 0px;
+}
+
+div#scores-div {
+    width: 150px;
+    outline: 1px solid #999999;
+    margin: 0px auto;
+    color: #999999;
+    padding: 5px;
+    background: #000000;
+    font-family: Arial;
+    box-shadow: 5px 5px #000000;
+}
+
+#scoreboard {
+    margin: 0px auto;
+    padding: 0px;
+    color: #999999;
+    font-size: 14px;
+}
+
+#scoreboard tr {
+    padding: 0px;
+    margin: 0px;
+}
+
+#scoreboard tr td {
+    padding: 0px;
+    margin: 0px;
+    width: 40px;
+    text-align: center;
+    line-height: 14px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ #dealer-score-span, #player-score-span, #dealer-total-span, #player-total-span {
+    margin: 0px auto;
+    width: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: inline-block;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div#results-div {
+    width: 200px;
+    padding: 5px;
+    height: 14px;
+    line-height: 14px;
+    margin: 0px auto;
+    color: #999999;
+    font-size: 14px;
+    font-family: Arial;
+    text-align: center;
+    background-color: #000000;
+    outline: 1px solid #999999;
+    box-shadow: 5px 5px #000000;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div.controls-div {
+    width: 270px;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+div#game-controls-div, div#replay-controls-div {
+    display: none;
+}
+
+div.controls-div button {
+    background-color: #000000;
+    color: #999999;
+    outline: 1px solid #999999;
+    border: none;
+    width: 90px;
+    height: 30px;
+    margin: 0px;
+    box-shadow: 5px 5px #000000;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div#signature {
+    width: 300px;
+    font-size: 10px;
+    color: #999999;
+    font-family: Arial;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 5px 5px #000000;
+}
+
+div#signature a {
+    color: #999999;
+}
